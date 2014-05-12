@@ -1,0 +1,12 @@
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> Connected, sending welcome message...
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 220-FileZilla Server version 0.9.31 beta
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 220-
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 220 WELCOME WAGON!
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> AUTH TLS
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (200.168.206.142)> 234 Using authentication type TLS
+(000044) 4/1/2009 16:53:19 PM - (not logged in) (200.168.206.142)> SSL connection established
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (200.168.206.142)> USER Zorro Jacobs
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (200.168.206.142)> 331 Password required for Zorro Jacobs
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (200.168.206.142)> PASS **********

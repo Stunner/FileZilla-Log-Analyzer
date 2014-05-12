@@ -1,0 +1,63 @@
+How to use python script on windows tutorial.
+
+This file explains how to use this script on a windows-based machine. It is recommended that you read the README.txt in addition to this file. This file will reference the tutorial found at this URL: http://www.python.org/doc/faq/windows/#how-do-i-run-a-python-program-under-windows
+
+This method is not necessarily the best method or the easiest, but it works and works well. If you would prefer to use an alternate, easier method you would have to search how to run python scripts from windows on your own(sorry). 
+
+The following isn't recommended for a computer novice. If you are any sort of system administrator(you should already know this ;) ) or have avid computer knowledge and a bit of common sense, the following should be just fine for you.
+
+I am going to assume you have a windows system(see referenced URL for specific differences between OS versions) and that you are starting from scratch, i.e. you don't have python 2.6 installed, etc. I tested this on Windows XP SP3 and it worked fine.
+
+Disclaimer: I am not responsible for any damage whatsoever done to your system brought upon by the following of this guide.
+
+Here goes...
+
+STEP 1:
+Download and install the version of Python you need for the script to run from http://python.org/download/ You can usually find out what version you need by consulting the scripts README file.
+
+When installing Python, make note of where it is installed in your filesystem.
+
+STEP 2:
+Go to Start->Run and type in "cmd"(without quotes). Try entering the command "python" and you should get the python interpreter to come up. It is something that looks like this:
+
+Python 2.2 (#28, Dec 21 2001, 12:21:22) [MSC 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+If you do get the interpreter to show up, skip to STEP 6, otherwise if you get a message complaining about "python" being an unrecognizable command, continue to the next step.
+
+STEP 3:
+You made note of where you installed Python, right? So you will have to include that in the PATH. By default, Python is installed here: C:\Python<first 2 digits of version>. For example, for Python 2.6.x, it will be located at "C:\Python26" (and if you type "C:\Python26\python" the interpreter will come up) so I will be using that pathname as an example.
+
+To add something to the PATH, do the following:
+	1: Right-click on "My Computer" and select "Properties"
+	2: In the "Advanced Tab" click "Environment Variables"
+	3: Under "System variables" look for "Path" under the "Variable" column and select its row to highlight it
+	4: Once highlighted, click "Edit" and a small window titled "Edit System Variable" will pop up
+       *5: Under the "Variable value" field, simply enter the path to where python installed itself on your system(for example, if you let python install in the folder specified by default you would simply enter ";C:\Python26"-take note of the semicolon which I used to specify a new path entry)
+	6: Click "OK", "OK", and "Apply" to apply the changes.
+
+*Be very careful here as if you mistakenly alter any of the previous path values, some programs on your machine may no longer work correctly
+
+STEP 4:
+You (most likely) may have to reboot your computer(I had to). You can retry STEP 2 and if it doesn't work for you, then you know you have to restart your computer for certain.
+
+STEP 5:
+Go to Start->Run and type in "cmd"(without quotes). Try entering the command "python" and you should get the python interpreter to come up and this time it should work with a display like the following:
+
+Python 2.2 (#28, Dec 21 2001, 12:21:22) [MSC 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+If it is still not working for you, make sure you specified the correct path value. If you can't figure out what is wrong, refer to the referenced URL I gave at the beginning of this tutorial.
+
+STEP 6:
+Now to use the script, navigate to the directory(yes, in the commandline prompt) in which you downloaded the script. I'll give you a very brief explanation of the commands to do that here:
+
+cd <directory> - change directory - you can press TAB to tab through all the directories that you can possibly change to from the one you are currently in. You can type or use TAB or SHIFT+TAB to navigate to get the target directory name to show up, and then press enter to change to the directory (typing "cd .." will take you up a folder in the filesystem)
+
+dir - (list) directory -  just type "dir" and it will give you a list of files and directories within your current folder. Very helpful when navigating your filesystem.
+
+Once you get inside the directory in which the python script resides(that is, you type dir and you see the .py script files) type "python <scipt filename>" to see the file usage. For more on usage see the script's README file.
+
+I hope you found this helpful. If you find some errors or know of a better way to do something please let me know.

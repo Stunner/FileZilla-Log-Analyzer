@@ -1,0 +1,100 @@
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> Connected, sending welcome message...
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 220-FileZilla Server version 0.9.31 beta
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 220-
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 220 WELCOME WAGON!
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> AUTH TLS
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 234 Using authentication type TLS
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> SSL connection established
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> USER Ben Sanders
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> 331 Password required for Ben Sanders
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (8.182.9.128)> PASS **************
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 230 Logged on
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> PBSZ 0
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 200 PBSZ=0
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> PROT P
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 200 Protection level set to P
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> TYPE I
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 200 Type set to I
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> PASV
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,202)
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> LIST
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000041) 4/1/2009 1:34:49 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> CWD folder_1
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> PASV
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,203)
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> LIST
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:24 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> CWD folder_2
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_2" is current directory.
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> PASV
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,204)
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> LIST
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:27 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000041) 4/1/2009 1:35:28 AM - Ben Sanders (8.182.9.128)> CDUP
+(000041) 4/1/2009 1:35:28 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:28 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:28 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> CWD folder_3
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> PASV
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,205)
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> LIST
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:29 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> CWD folder_4
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_3/folder_4" is current directory.
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3/folder_4" is current directory.
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> PASV
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,206)
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> LIST
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:40 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000041) 4/1/2009 1:35:42 AM - Ben Sanders (8.182.9.128)> CDUP
+(000041) 4/1/2009 1:35:42 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:42 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:42 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:43 AM - Ben Sanders (8.182.9.128)> CDUP
+(000041) 4/1/2009 1:35:43 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:43 AM - Ben Sanders (8.182.9.128)> PWD
+(000041) 4/1/2009 1:35:43 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:54 AM - Ben Sanders (8.182.9.128)> disconnected.
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> Connected, sending welcome message...
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> 220-FileZilla Server version 0.9.31 beta
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> 220-
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> 220 WELCOME WAGON!
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (8.182.9.128)> AUTH TLS
+(000042) 4/1/2009 4:22:10 AM - (not logged in) (8.182.9.128)> 234 Using authentication type TLS
+(000042) 4/1/2009 4:22:10 AM - (not logged in) (8.182.9.128)> SSL connection established
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (8.182.9.128)> USER Ben Sanders
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (8.182.9.128)> 331 Password required for Ben Sanders
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (8.182.9.128)> PASS **************
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 230 Logged on
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> SYST
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 215 UNIX emulated by FileZilla
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> FEAT
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 211-Features:
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MDTM
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> REST STREAM
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> SIZE
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MLST type*;size*;modify*;
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MLSD

@@ -1,0 +1,281 @@
+FileZilla Log Analyzer 1.10 alpha README file.
+Author: Aaron Jubbal
+
+This guide should be used to get quickly acquainted with FLA's features and usages. For requirement/installation and/or running recommendations you must consult the README. Reading through the README in its entirety is STRONGLY recommended.
+
+####
+KEY:
+####
+Key of what the upper-case topics in the 'Features' section represent.
+
+SYNOPSIS: Brief overview of what feature/flag does.
+
+ANALYSIS REQUIRED: If specified, does it require analysis of log file. This is important to know as analysis consists of thorough processing of the log file which generally takes a long time with very large log files. If you can avoid this process to accomplish your goal, it is recommended you do.
+
+FLAG(S): Flag to be specified in command prompt for feature/option to occur. Specified as so: <concise version, verbose version>
+
+CAN BE USED WITH: Provides all flags that can be used in conjunction with feature.
+
+USAGE: Usage format of flag or feature.
+
+EXAMPLE(S): Example of what feature/flag is capable of or information on where to find examples.
+
+#########
+FEATURES:
+#########
+Briefly goes over core script features.
+
+========
+Analysis
+========
+SYNOPSIS: Creates line-by-line interpretation of log file(lineInterpretation.log) and a summary of all users' actions(files downloaded, uploaded, etc) in log file in a listed format(listedSummary.log).
+
+ANALYSIS REQUIRED: Yes(duh!)
+
+FLAG(S): None, simply give it your log file.
+
+CAN BE USED WITH: -F <force execution>
+
+USAGE: python FLA.py <log file>
+
+EXAMPLE(S): See 'sampleLineInterpretation.log' and 'sampleListedSummary.log' in Samples directory.
+
+$ python FLA.py sampleLog.log 
+Analyzing sampleLog.log...
+Writing lineInterpretation.log...
+Writing listedSummary.log...
+$
+
+=====================
+Encrypting/Scrambling
+=====================
+SYNOPSIS: Creates a replica of original log file, but alters(scrambles) original file/folder names, IP addresses, and/or user names.
+
+ANALYSIS REQUIRED: Yes
+
+FLAG(S): -s, --scramble
+
+CAN BE USED WITH: -F <force execution>, -p <parse>
+
+USAGE: python FLA.py -s <scramble parameters> <log file>
+	where scramble parameters is any of the following:
+		f: scramble file/folder names
+		u: scramble user names, cannot be used with 'v' parameter
+		v: scramble user names in number format, cannot be used with 'u' parameter
+		i: scramble ip addresses
+
+EXAMPLE(S): See 'parsedLog1.log' and 'parsedLog2.log' in Samples directory for files created by the below output. First execution corresponds to 'parsedLog1.log' and the second corresponds to 'parsedLog1.log'.
+
+$ python FLA.py -s fui sampleLog.log 
+Analyzing sampleLog.log...
+Writing parsedLog.log...
+$ python FLA.py -s v sampleLog.log 
+Analyzing sampleLog.log...
+parsedLog.log exists, OK to overwrite? (Y/N)y
+Overwriting parsedLog.log...
+$
+
+=========
+Filtering
+=========
+SYNOPSIS: Creates filtered files based on each individual value of any combination of the following categories: user name, IP address, date, port.
+
+ANALYSIS REQUIRED: No
+
+FLAG(S): -f, --filter
+
+CAN BE USED WITH: -F <force execution>, -p <parse>
+
+USAGE: python FLA.py -f <filter parameters> <log file>
+	where filter parameters is any of the following:
+		u: filter by user name
+		i: filter by IP address
+		d: filter by date
+		p: filter by port
+
+EXAMPLE(S): See 'FL-sampleLog.log' directory in Samples folder for filtering examples.
+
+$ python FLA.py -f ui sampleLog.log 
+Filtering...
+FL-sampleLog.log/FL-User-IP/fl-(not logged in)-8.182.9.128--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-8.182.9.128--.log...
+FL-sampleLog.log/FL-User-IP/fl-Ben Sanders-8.182.9.128--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Ben Sanders-8.182.9.128--.log...
+FL-sampleLog.log/FL-User-IP/fl-(not logged in)-200.168.206.142--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-200.168.206.142--.log...
+FL-sampleLog.log/FL-User-IP/fl-Zorro Jacobs-200.168.206.142--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Zorro Jacobs-200.168.206.142--.log...
+FL-sampleLog.log/FL-User-IP/fl-(not logged in)-213.14.17.9--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-213.14.17.9--.log...
+FL-sampleLog.log/FL-User-IP/fl-Abril Young-213.14.17.9--.log exists, OK to overwrite? (Y/N)y
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Abril Young-213.14.17.9--.log...
+
+=======
+Parsing
+=======
+SYNOPSIS: Creates parsed file(parsedLog.log) by specifying line number ranges, or user login/logout instance. Can be used alone or in conjunction with encrypting and filtering options.
+
+ANALYSIS REQUIRED: Depends. If parsing by user session, yes; if manually parsing(hyphen specified in parameter), no.
+
+FLAG(S): -p, --parse
+
+CAN BE USED WITH: -F <force execution>, -s <scramble>, -f <filter>
+
+USAGE: python FLA.py -p <parse parameters> <log file>
+	where parse parameters is any of the following:
+		<line #>: parse by user login instance at specified line
+		<line #>-: parse from specified line number to end of log file
+		-<line #>: parse from beginning of log file to specified line number
+		<line #>-<line #>: parse from first specified line number to second specified line number
+
+EXAMPLE(S): See 'parsedLog3.log', 'parsedLog4.log', and 'parsedLog5.log' in Samples directory for files created by the below output. First execution corresponds to 'parsedLog3.log', the second corresponds to 'parsedLog4.log', and the third to 'parsedLog5.log'.
+
+$ python FLA.py --parse=-100 sampleLog.log 
+Writing parsedLog.log...
+$ python FLA.py -p 550- sampleLog.log 
+parsedLog.log exists, OK to overwrite? (Y/N)y
+Overwriting parsedLog.log...
+$ python FLA.py -p=440 sampleLog.log 
+Analyzing sampleLog.log...
+parsedLog.log exists, OK to overwrite? (Y/N)y
+Overwriting parsedLog.log...
+$
+
+NOTE: To view which user session the third execution is corresponding to, consult Display Sessions's example.
+
+====
+Help
+====
+SYNOPSIS: Displays to command-line a brief overview of flags and their usages.
+
+ANALYSIS REQUIRED: No
+
+FLAG(S): -h, --help
+
+CAN BE USED WITH: Nothing else. Must be specified as a stand alone flag.
+
+USAGE: python FLA.py -h <log file>
+
+EXAMPLE(S):
+
+$ python FLA.py --help ../../Samples/sampleLog.log 
+=========================================
+FileZilla Log Analyzer version 1.10 Alpha
+See README for details. Brief overview of flags:
+-p --parse <line number> = parse original log by splitting at login/logout for the session that corresponds with the line number
+-s --scramble <[f],[u],[v],[i]> = f: scramble file/folder names
+                                  u: scramble user names
+                                  v: scramble user names in number format
+                                  i: scramble ip addresses
+-f --filter <[u],[i],[d],[p]> = u: by user name
+                                i: by IP address
+                                d: by date
+                                p: by port
+-d = display login/logout instances
+-F = force execution, if a file is going to be overwritten, prompts for overwriting are withheld and the file is overwritten
+=========================================
+$
+
+===============
+Force Execution
+===============
+SYNOPSIS: Doesn't prompt for overwriting files... if a file is going to be overwritten, it will go ahead with it. Can be used with most other flags.
+
+ANALYSIS REQUIRED: No
+
+FLAG(S): -F
+
+CAN BE USED WITH: -s <scramble>, -f <filter>, -p <parse>
+
+USAGE: python FLA.py -F <log file>
+
+EXAMPLE(S):
+
+$ python FLA.py -F sampleLog.log 
+Analyzing sampleLog.log...
+Writing lineInterpretation.log...
+Writing listedSummary.log...
+$ python FLA.py -F sampleLog.log 
+Analyzing sampleLog.log...
+Overwriting lineInterpretation.log...
+Overwriting listedSummary.log...
+$
+
+$ python FLA.py --parse -300 sampleLog.log 
+Writing parsedLog.log...
+$ python FLA.py --parse 500- sampleLog.log 
+parsedLog.log exists, OK to overwrite? (Y/N)y
+Overwriting parsedLog.log...
+$ python FLA.py -F --parse 210-456 --scramble=ui sampleLog.log 
+Analyzing sampleLog.log...
+Overwriting parsedLog.log...
+$
+
+$ python FLA.py -Ff ui sampleLog.log 
+Filtering...
+Writing FL-sampleLog.log/FL-User-IP/fl-Ben Sanders-8.182.9.128--.log...
+Writing FL-sampleLog.log/FL-User-IP/fl-(not logged in)-200.168.206.142--.log...
+Writing FL-sampleLog.log/FL-User-IP/fl-Zorro Jacobs-200.168.206.142--.log...
+Writing FL-sampleLog.log/FL-User-IP/fl-(not logged in)-213.14.17.9--.log...
+Writing FL-sampleLog.log/FL-User-IP/fl-Abril Young-213.14.17.9--.log...
+$ python FLA.py -Ff ui sampleLog.log 
+Filtering...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-8.182.9.128--.log...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Ben Sanders-8.182.9.128--.log...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-200.168.206.142--.log...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Zorro Jacobs-200.168.206.142--.log...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-(not logged in)-213.14.17.9--.log...
+Overwriting FL-sampleLog.log/FL-User-IP/fl-Abril Young-213.14.17.9--.log...
+$
+
+================
+Display Sessions
+================
+SYNOPSIS: Displays, on command line, list of all user login/logouts. Can't be used with any other flags.
+
+ANALYSIS REQUIRED: Yes
+
+FLAG(S): -d
+
+CAN BE USED WITH: Nothing else. Must be specified as a stand alone flag.
+
+USAGE: python FLA.py -d <log file>
+
+EXAMPLE(S):
+
+$ python FLA.py -d sampleLog.log 
+Analyzing sampleLog.log...
+('Ben Sanders', 'login', 13)
+('Ben Sanders', 'disconnect', 78)
+('Ben Sanders', 'login', 91)
+('Ben Sanders', 'disconnect', 211)
+('(not logged in)', 'disconnect', 220)
+('Zorro Jacobs', 'login', 233)
+('Zorro Jacobs', 'disconnect', 300)
+('Ben Sanders', 'login', 313)
+('Ben Sanders', 'disconnect', 345)
+('Ben Sanders', 'login', 358)
+('Ben Sanders', 'disconnect', 367)
+('(not logged in)', 'disconnect', 376)
+('(not logged in)', 'disconnect', 385)
+('(not logged in)', 'disconnect', 394)
+('Ben Sanders', 'login', 407)
+('Ben Sanders', 'disconnect', 422)
+('Abril Young', 'login', 435)
+('Abril Young', 'disconnect', 466)
+('Ben Sanders', 'login', 479)
+('Ben Sanders', 'disconnect', 529)
+('(not logged in)', 'disconnect', 538)
+('(not logged in)', 'disconnect', 547)
+('(not logged in)', 'disconnect', 556)
+('Abril Young', 'login', 569)
+('Ben Sanders', 'login', 733)
+('Ben Sanders', 'disconnect', 866)
+('Ben Sanders', 'login', 879)
+('Ben Sanders', 'disconnect', 934)
+$
+
+########
+CONTACT:
+########
+For feedback, comments, questions, bug reporting, or just to give me a friendly hello, contact me at technetix@gmail.com.

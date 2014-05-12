@@ -1,0 +1,12 @@
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> Connected, sending welcome message...
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 220-FileZilla Server version 0.9.31 beta
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 220-
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 220 WELCOME WAGON!
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> AUTH TLS
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (8.182.9.128)> 234 Using authentication type TLS
+(000061) 4/2/2009 16:27:44 PM - (not logged in) (8.182.9.128)> SSL connection established
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (8.182.9.128)> USER Ben Sanders
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (8.182.9.128)> 331 Password required for Ben Sanders
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (8.182.9.128)> PASS **************

@@ -1,0 +1,12 @@
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> Connected, sending welcome message...
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> 220-FileZilla Server version 0.9.31 beta
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> 220-
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> 220 WELCOME WAGON!
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (213.14.17.9)> AUTH TLS
+(000051) 4/1/2009 20:30:17 PM - (not logged in) (213.14.17.9)> 234 Using authentication type TLS
+(000051) 4/1/2009 20:30:17 PM - (not logged in) (213.14.17.9)> SSL connection established
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (213.14.17.9)> USER Abril Young
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (213.14.17.9)> 331 Password required for Abril Young
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (213.14.17.9)> PASS ****

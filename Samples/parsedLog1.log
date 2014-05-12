@@ -1,0 +1,1049 @@
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 220-
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> AUTH TLS
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> SSL connection established
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000041) 4/1/2009 1:34:48 AM - (not logged in) (228.162.230.124)> PASS **************
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 230 Logged on
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> PBSZ 0
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> PROT P
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> TYPE I
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> PASV
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,202)
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> LIST
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000041) 4/1/2009 1:34:49 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> CWD folder_1
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> PASV
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,203)
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> LIST
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:24 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> CWD folder_2
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_2" is current directory.
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> PASV
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,204)
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> LIST
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:27 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000041) 4/1/2009 1:35:28 AM - Zach Davis (228.162.230.124)> CDUP
+(000041) 4/1/2009 1:35:28 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:28 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:28 AM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> CWD folder_3
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> PASV
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,205)
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> LIST
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:29 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> CWD folder_4
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_3/folder_4" is current directory.
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3/folder_4" is current directory.
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> PASV
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,206)
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> LIST
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000041) 4/1/2009 1:35:40 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000041) 4/1/2009 1:35:42 AM - Zach Davis (228.162.230.124)> CDUP
+(000041) 4/1/2009 1:35:42 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:42 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:42 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3" is current directory.
+(000041) 4/1/2009 1:35:43 AM - Zach Davis (228.162.230.124)> CDUP
+(000041) 4/1/2009 1:35:43 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:43 AM - Zach Davis (228.162.230.124)> PWD
+(000041) 4/1/2009 1:35:43 AM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000041) 4/1/2009 1:35:54 AM - Zach Davis (228.162.230.124)> disconnected.
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> 220-
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000042) 4/1/2009 4:22:09 AM - (not logged in) (228.162.230.124)> AUTH TLS
+(000042) 4/1/2009 4:22:10 AM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000042) 4/1/2009 4:22:10 AM - (not logged in) (228.162.230.124)> SSL connection established
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000042) 4/1/2009 4:22:38 AM - (not logged in) (228.162.230.124)> PASS **************
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 230 Logged on
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> SYST
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 215 UNIX emulated by FileZilla
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> FEAT
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 211-Features:
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> MDTM
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> REST STREAM
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> SIZE
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> MLST type*;size*;modify*;
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> MLSD
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> AUTH SSL
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> AUTH TLS
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> UTF8
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> CLNT
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> MFMT
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 211 End
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> PBSZ 0
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> PROT P
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> TYPE I
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,207)
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> MDTM file_1.txt
+(000042) 4/1/2009 4:22:38 AM - Zach Davis (228.162.230.124)> 213 20090331093458
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> CWD folder_1
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,208)
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:42 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> CWD folder_2
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_2" is current directory.
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,209)
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:44 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:45 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:45 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:46 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:22:46 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:46 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:46 AM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> CWD folder_3
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,210)
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:47 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:48 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:48 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> CWD folder_5
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,211)
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:49 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> CWD folder_6
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_3/folder_5/folder_6" is current directory.
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3/folder_5/folder_6" is current directory.
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,212)
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:57 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:22:58 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:22:58 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:59 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:22:59 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:23:04 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:23:04 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:23:04 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:04 AM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:23:06 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:23:06 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:23:06 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:06 AM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:23:15 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:23:15 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:15 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:15 AM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:17 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:23:17 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:17 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:17 AM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> CWD folder_7
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_7" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> 257 "/folder_7" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> PASV
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,213)
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> LIST
+(000042) 4/1/2009 4:23:25 AM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000042) 4/1/2009 4:23:26 AM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000042) 4/1/2009 4:23:26 AM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000042) 4/1/2009 4:23:28 AM - Zach Davis (228.162.230.124)> CDUP
+(000042) 4/1/2009 4:23:28 AM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:28 AM - Zach Davis (228.162.230.124)> PWD
+(000042) 4/1/2009 4:23:28 AM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:59 AM - Zach Davis (228.162.230.124)> disconnected.
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> 220-
+(000043) 4/1/2009 16:20:05 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000043) 4/1/2009 16:20:06 PM - (not logged in) (228.162.230.124)> USER Zorro Wu
+(000043) 4/1/2009 16:20:06 PM - (not logged in) (228.162.230.124)> 530 Have to use explicit SSL/TLS before logging on.
+(000043) 4/1/2009 16:20:12 PM - (not logged in) (228.162.230.124)> disconnected.
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> Connected, sending welcome message...
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 220-FileZilla Server version 0.9.31 beta
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 220-
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 220 WELCOME WAGON!
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> AUTH TLS
+(000044) 4/1/2009 16:53:18 PM - (not logged in) (15.41.207.188)> 234 Using authentication type TLS
+(000044) 4/1/2009 16:53:19 PM - (not logged in) (15.41.207.188)> SSL connection established
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (15.41.207.188)> USER Earl Henderson
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (15.41.207.188)> 331 Password required for Earl Henderson
+(000044) 4/1/2009 16:53:21 PM - (not logged in) (15.41.207.188)> PASS **********
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 230 Logged on
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> SYST
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 215 UNIX emulated by FileZilla
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> FEAT
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 211-Features:
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> MDTM
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> REST STREAM
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> SIZE
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> MLST type*;size*;modify*;
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> MLSD
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> AUTH SSL
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> AUTH TLS
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> UTF8
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> CLNT
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> MFMT
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 211 End
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> PBSZ 0
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 200 PBSZ=0
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> PROT P
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 200 Protection level set to P
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> PWD
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 257 "/" is current directory.
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> TYPE I
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 200 Type set to I
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> PASV
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 227 Entering Passive Mode (192,168,1,74,199,214)
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> LIST
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 150 Connection accepted
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 226 Transfer OK
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> MDTM file_1.txt
+(000044) 4/1/2009 16:53:21 PM - Earl Henderson (15.41.207.188)> 213 20090331093458
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> CWD folder_1
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> 250 CWD successful. "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> PWD
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> 257 "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> PASV
+(000044) 4/1/2009 16:53:27 PM - Earl Henderson (15.41.207.188)> 227 Entering Passive Mode (192,168,1,74,199,215)
+(000044) 4/1/2009 16:53:28 PM - Earl Henderson (15.41.207.188)> LIST
+(000044) 4/1/2009 16:53:28 PM - Earl Henderson (15.41.207.188)> 150 Connection accepted
+(000044) 4/1/2009 16:53:28 PM - Earl Henderson (15.41.207.188)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:28 PM - Earl Henderson (15.41.207.188)> 226 Transfer OK
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> CWD folder_3
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> PWD
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> 257 "/folder_1/folder_3" is current directory.
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> PASV
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> 227 Entering Passive Mode (192,168,1,74,199,216)
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> LIST
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> 150 Connection accepted
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:32 PM - Earl Henderson (15.41.207.188)> 226 Transfer OK
+(000044) 4/1/2009 16:53:35 PM - Earl Henderson (15.41.207.188)> CWD folder_1
+(000044) 4/1/2009 16:53:35 PM - Earl Henderson (15.41.207.188)> 250 CWD successful. "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:35 PM - Earl Henderson (15.41.207.188)> PWD
+(000044) 4/1/2009 16:53:35 PM - Earl Henderson (15.41.207.188)> 257 "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> CWD folder_2
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> PWD
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> 257 "/folder_1/folder_2" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> PASV
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> 227 Entering Passive Mode (192,168,1,74,199,217)
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> LIST
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> 150 Connection accepted
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:36 PM - Earl Henderson (15.41.207.188)> 226 Transfer OK
+(000044) 4/1/2009 16:55:37 PM - Earl Henderson (15.41.207.188)> 421 Connection timed out.
+(000044) 4/1/2009 16:55:37 PM - Earl Henderson (15.41.207.188)> disconnected.
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> 220-
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000045) 4/1/2009 19:14:03 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000045) 4/1/2009 19:14:04 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000045) 4/1/2009 19:14:05 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000045) 4/1/2009 19:14:06 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000045) 4/1/2009 19:14:06 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000045) 4/1/2009 19:14:08 PM - (not logged in) (228.162.230.124)> PASS **************
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> SYST
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 215 UNIX emulated by FileZilla
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> FEAT
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 211-Features:
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> MDTM
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> REST STREAM
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> SIZE
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> MLST type*;size*;modify*;
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> MLSD
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> AUTH SSL
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> AUTH TLS
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> UTF8
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> CLNT
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> MFMT
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 211 End
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> PROT P
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> PWD
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> TYPE I
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> PASV
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,218)
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> LIST
+(000045) 4/1/2009 19:14:08 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000045) 4/1/2009 19:14:09 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000045) 4/1/2009 19:14:09 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000045) 4/1/2009 19:14:09 PM - Zach Davis (228.162.230.124)> MDTM file_1.txt
+(000045) 4/1/2009 19:14:09 PM - Zach Davis (228.162.230.124)> 213 20090331093458
+(000045) 4/1/2009 19:14:17 PM - Zach Davis (228.162.230.124)> disconnected.
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> 220-
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000046) 4/1/2009 19:14:25 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000046) 4/1/2009 19:14:26 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000046) 4/1/2009 19:14:28 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000046) 4/1/2009 19:14:28 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000046) 4/1/2009 19:14:28 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000046) 4/1/2009 19:14:28 PM - (not logged in) (228.162.230.124)> PASS **************
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> PROT P
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> CWD /
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/" is current directory.
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> PWD
+(000046) 4/1/2009 19:14:28 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000046) 4/1/2009 19:14:29 PM - Zach Davis (228.162.230.124)> disconnected.
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 220-
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000047) 4/1/2009 20:27:17 PM - (not logged in) (170.73.65.24)> disconnected.
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 220-
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000048) 4/1/2009 20:27:23 PM - (not logged in) (170.73.65.24)> disconnected.
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 220-
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000049) 4/1/2009 20:27:28 PM - (not logged in) (170.73.65.24)> disconnected.
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> 220-
+(000050) 4/1/2009 20:27:45 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000050) 4/1/2009 20:27:48 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000050) 4/1/2009 20:27:48 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000050) 4/1/2009 20:27:50 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000050) 4/1/2009 20:27:50 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000050) 4/1/2009 20:27:50 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000050) 4/1/2009 20:27:50 PM - (not logged in) (228.162.230.124)> PASS **************
+(000050) 4/1/2009 20:27:50 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000050) 4/1/2009 20:27:50 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000050) 4/1/2009 20:27:50 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000050) 4/1/2009 20:27:50 PM - Zach Davis (228.162.230.124)> PROT P
+(000050) 4/1/2009 20:27:50 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> PWD
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> TYPE I
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> PASV
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,219)
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> LIST
+(000050) 4/1/2009 20:27:51 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000050) 4/1/2009 20:27:53 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000050) 4/1/2009 20:27:53 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000050) 4/1/2009 20:27:56 PM - Zach Davis (228.162.230.124)> disconnected.
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> 220-
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000051) 4/1/2009 20:30:16 PM - (not logged in) (170.73.65.24)> AUTH TLS
+(000051) 4/1/2009 20:30:17 PM - (not logged in) (170.73.65.24)> 234 Using authentication type TLS
+(000051) 4/1/2009 20:30:17 PM - (not logged in) (170.73.65.24)> SSL connection established
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (170.73.65.24)> 331 Password required for Doug Wright
+(000051) 4/1/2009 20:30:26 PM - (not logged in) (170.73.65.24)> PASS ****
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> 230 Logged on
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> SYST
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> 215 UNIX emulated by FileZilla
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> FEAT
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> 211-Features:
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> MDTM
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> REST STREAM
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> SIZE
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> MLST type*;size*;modify*;
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> MLSD
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> AUTH SSL
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> AUTH TLS
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> UTF8
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> CLNT
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> MFMT
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> 211 End
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> PBSZ 0
+(000051) 4/1/2009 20:30:26 PM - Doug Wright (170.73.65.24)> 200 PBSZ=0
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> PROT P
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 200 Protection level set to P
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> PWD
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 257 "/" is current directory.
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> TYPE I
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 200 Type set to I
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> PASV
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,220)
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> LIST
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000051) 4/1/2009 20:30:27 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000051) 4/1/2009 20:32:27 PM - Doug Wright (170.73.65.24)> 421 Connection timed out.
+(000051) 4/1/2009 20:32:27 PM - Doug Wright (170.73.65.24)> disconnected.
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> 220-
+(000052) 4/1/2009 20:37:18 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000052) 4/1/2009 20:37:19 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000052) 4/1/2009 20:37:19 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000052) 4/1/2009 20:37:20 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000052) 4/1/2009 20:37:20 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000052) 4/1/2009 20:37:20 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000052) 4/1/2009 20:37:21 PM - (not logged in) (228.162.230.124)> PASS **************
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> PROT P
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> PWD
+(000052) 4/1/2009 20:37:21 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> CWD folder_1
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1" is current directory.
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> PWD
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> TYPE I
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> PASV
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,221)
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> LIST
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000052) 4/1/2009 20:37:42 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 220-
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000053) 4/1/2009 20:37:52 PM - (not logged in) (228.162.230.124)> PASS **************
+(000053) 4/1/2009 20:37:52 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000053) 4/1/2009 20:37:52 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000053) 4/1/2009 20:37:52 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> PROT P
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> CWD folder_1
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1" is current directory.
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> PWD
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> TYPE I
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> PASV
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,222)
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> RETR file_2.xls
+(000053) 4/1/2009 20:37:53 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000053) 4/1/2009 20:37:54 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000053) 4/1/2009 20:39:41 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000052) 4/1/2009 20:39:43 PM - Zach Davis (228.162.230.124)> 421 Connection timed out.
+(000052) 4/1/2009 20:39:43 PM - Zach Davis (228.162.230.124)> disconnected.
+(000053) 4/1/2009 20:40:43 PM - Zach Davis (228.162.230.124)> disconnected.
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 220-
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000054) 4/2/2009 16:22:00 PM - (not logged in) (170.73.65.24)> disconnected.
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 220-
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000055) 4/2/2009 16:22:05 PM - (not logged in) (170.73.65.24)> disconnected.
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 220-
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000056) 4/2/2009 16:22:10 PM - (not logged in) (170.73.65.24)> 530 Have to use explicit SSL/TLS before logging on.
+(000056) 4/2/2009 16:22:11 PM - (not logged in) (170.73.65.24)> disconnected.
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> 220-
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000057) 4/2/2009 16:22:46 PM - (not logged in) (170.73.65.24)> AUTH TLS
+(000057) 4/2/2009 16:22:47 PM - (not logged in) (170.73.65.24)> 234 Using authentication type TLS
+(000057) 4/2/2009 16:22:47 PM - (not logged in) (170.73.65.24)> SSL connection established
+(000057) 4/2/2009 16:22:50 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000057) 4/2/2009 16:22:50 PM - (not logged in) (170.73.65.24)> 331 Password required for Doug Wright
+(000057) 4/2/2009 16:22:50 PM - (not logged in) (170.73.65.24)> PASS ****
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 230 Logged on
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> SYST
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 215 UNIX emulated by FileZilla
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> FEAT
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 211-Features:
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> MDTM
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> REST STREAM
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> SIZE
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> MLST type*;size*;modify*;
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> MLSD
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> AUTH SSL
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> AUTH TLS
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> UTF8
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> CLNT
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> MFMT
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 211 End
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> PBSZ 0
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 200 PBSZ=0
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> PROT P
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 200 Protection level set to P
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> PWD
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 257 "/" is current directory.
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> TYPE I
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 200 Type set to I
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> PASV
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,223)
+(000057) 4/2/2009 16:22:50 PM - Doug Wright (170.73.65.24)> LIST
+(000057) 4/2/2009 16:22:51 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000057) 4/2/2009 16:22:51 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000057) 4/2/2009 16:22:51 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000057) 4/2/2009 16:22:51 PM - Doug Wright (170.73.65.24)> MDTM file_2.xls
+(000057) 4/2/2009 16:22:51 PM - Doug Wright (170.73.65.24)> 213 20090402033637
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> CWD folder_2
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2" is current directory.
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> PWD
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> 257 "/folder_2" is current directory.
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> PASV
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,224)
+(000057) 4/2/2009 16:24:11 PM - Doug Wright (170.73.65.24)> LIST
+(000057) 4/2/2009 16:24:12 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000057) 4/2/2009 16:24:12 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000057) 4/2/2009 16:24:12 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> Connected, sending welcome message...
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-FileZilla Server version 0.9.31 beta
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220-
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 220 WELCOME WAGON!
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> AUTH TLS
+(000058) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 234 Using authentication type TLS
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> AUTH TLS
+(000059) 4/2/2009 16:25:04 PM - (not logged in) (170.73.65.24)> 234 Using authentication type TLS
+(000058) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> SSL connection established
+(000059) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> SSL connection established
+(000058) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000058) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> 331 Password required for Doug Wright
+(000059) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> USER Doug Wright
+(000059) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> 331 Password required for Doug Wright
+(000059) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> PASS ****
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 230 Logged on
+(000058) 4/2/2009 16:25:05 PM - (not logged in) (170.73.65.24)> PASS ****
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 230 Logged on
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PBSZ 0
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 200 PBSZ=0
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PBSZ 0
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 200 PBSZ=0
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PROT P
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 200 Protection level set to P
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PROT P
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 200 Protection level set to P
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 550 CWD failed. "/folder_2/folder_8": directory not found.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> CWD folder_2
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2" is current directory.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> MKD folder_8
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 257 Directory created successfully
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8" is current directory.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PWD
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 257 "/folder_2/folder_8" is current directory.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> TYPE I
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 200 Type set to I
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8" is current directory.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,225)
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> PWD
+(000059) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 257 "/folder_2/folder_8" is current directory.
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> LIST
+(000058) 4/2/2009 16:25:05 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> TYPE A
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 200 Type set to A
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> TYPE A
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 200 Type set to A
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,226)
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,227)
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> STOR file_3
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> STOR file_4
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> TYPE I
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 200 Type set to I
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_9
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 550 CWD failed. "/folder_2/folder_8/folder_9": directory not found.
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,228)
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8
+(000058) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8" is current directory.
+(000059) 4/2/2009 16:25:06 PM - Doug Wright (170.73.65.24)> STOR file_5.ini
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> MKD folder_9
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 257 Directory created successfully
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_9
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8/folder_9" is current directory.
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> PWD
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 257 "/folder_2/folder_8/folder_9" is current directory.
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> TYPE I
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 200 Type set to I
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,229)
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> LIST
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_9
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8/folder_9" is current directory.
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,230)
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,231)
+(000058) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> STOR file_6.mp3
+(000059) 4/2/2009 16:25:07 PM - Doug Wright (170.73.65.24)> STOR file_7.mp3
+(000058) 4/2/2009 16:25:08 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:08 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:08 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:08 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 220-
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000060) 4/2/2009 16:25:28 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000060) 4/2/2009 16:25:30 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000060) 4/2/2009 16:25:30 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000060) 4/2/2009 16:25:30 PM - (not logged in) (228.162.230.124)> PASS **************
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> SYST
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> 215 UNIX emulated by FileZilla
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> FEAT
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> 211-Features:
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> MDTM
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> REST STREAM
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> SIZE
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> MLST type*;size*;modify*;
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> MLSD
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> AUTH SSL
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> AUTH TLS
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> UTF8
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> CLNT
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> MFMT
+(000060) 4/2/2009 16:25:30 PM - Zach Davis (228.162.230.124)> 211 End
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> PROT P
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> PWD
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> TYPE I
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> PASV
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,232)
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> LIST
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000060) 4/2/2009 16:25:31 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000060) 4/2/2009 16:25:32 PM - Zach Davis (228.162.230.124)> MDTM file_1.txt
+(000060) 4/2/2009 16:25:32 PM - Zach Davis (228.162.230.124)> 213 20090331093458
+(000058) 4/2/2009 16:25:35 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,233)
+(000058) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> STOR file_8.mp3
+(000058) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000059) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,234)
+(000058) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:36 PM - Doug Wright (170.73.65.24)> LIST
+(000059) 4/2/2009 16:25:37 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:37 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:37 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,235)
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> APPE file_7.mp3
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:38 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,236)
+(000059) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> STOR file_9.mp3
+(000059) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000058) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,237)
+(000059) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> LIST
+(000058) 4/2/2009 16:25:39 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:40 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:40 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:40 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:40 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,238)
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> APPE file_8.mp3
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,239)
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> STOR file_10.mp3
+(000058) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:41 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000059) 4/2/2009 16:25:42 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:42 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,240)
+(000058) 4/2/2009 16:25:42 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:42 PM - Doug Wright (170.73.65.24)> LIST
+(000059) 4/2/2009 16:25:42 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,241)
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> APPE file_9.mp3
+(000059) 4/2/2009 16:25:43 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000059) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,242)
+(000059) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> STOR file_11.mp3
+(000059) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000058) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,243)
+(000059) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:44 PM - Doug Wright (170.73.65.24)> LIST
+(000058) 4/2/2009 16:25:45 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,244)
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> APPE file_10.mp3
+(000058) 4/2/2009 16:25:46 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000058) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,245)
+(000058) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> STOR file_12.mp3
+(000058) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000059) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,246)
+(000058) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:47 PM - Doug Wright (170.73.65.24)> LIST
+(000059) 4/2/2009 16:25:48 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:48 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:25:48 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,247)
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> APPE file_11.mp3
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:25:49 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,248)
+(000059) 4/2/2009 16:25:50 PM - Doug Wright (170.73.65.24)> STOR file_13.mp3
+(000059) 4/2/2009 16:25:50 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:25:50 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000057) 4/2/2009 16:26:12 PM - Doug Wright (170.73.65.24)> 421 Connection timed out.
+(000057) 4/2/2009 16:26:12 PM - Doug Wright (170.73.65.24)> disconnected.
+(000059) 4/2/2009 16:26:53 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:26:53 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:26:53 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,249)
+(000059) 4/2/2009 16:26:54 PM - Doug Wright (170.73.65.24)> STOR file_14.mp3
+(000059) 4/2/2009 16:26:54 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:26:55 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:27:02 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:27:02 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:27:02 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,250)
+(000058) 4/2/2009 16:27:03 PM - Doug Wright (170.73.65.24)> STOR file_15.mp3
+(000058) 4/2/2009 16:27:03 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:27:03 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000060) 4/2/2009 16:27:32 PM - Zach Davis (228.162.230.124)> 421 Connection timed out.
+(000060) 4/2/2009 16:27:32 PM - Zach Davis (228.162.230.124)> disconnected.
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> Connected, sending welcome message...
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 220-FileZilla Server version 0.9.31 beta
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 220-written by Tim Kosse (Tim.Kosse@gmx.de)
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 220-Please visit http://sourceforge.net/projects/filezilla/
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 220-
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 220 WELCOME WAGON!
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> AUTH TLS
+(000061) 4/2/2009 16:27:42 PM - (not logged in) (228.162.230.124)> 234 Using authentication type TLS
+(000061) 4/2/2009 16:27:44 PM - (not logged in) (228.162.230.124)> SSL connection established
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (228.162.230.124)> USER Zach Davis
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (228.162.230.124)> 331 Password required for Zach Davis
+(000061) 4/2/2009 16:27:45 PM - (not logged in) (228.162.230.124)> PASS **************
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 230 Logged on
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> PBSZ 0
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 200 PBSZ=0
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> PROT P
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 200 Protection level set to P
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> CWD /
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 257 "/" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> CWD folder_1
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> TYPE I
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 200 Type set to I
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> PASV
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,251)
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> LIST
+(000061) 4/2/2009 16:27:45 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000061) 4/2/2009 16:27:46 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:46 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> CWD folder_2
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> PASV
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,252)
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> LIST
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:48 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000061) 4/2/2009 16:27:51 PM - Zach Davis (228.162.230.124)> CWD folder_8
+(000061) 4/2/2009 16:27:51 PM - Zach Davis (228.162.230.124)> 250 CWD successful. "/folder_1/folder_2/folder_8" is current directory.
+(000061) 4/2/2009 16:27:51 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:27:51 PM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_2/folder_8" is current directory.
+(000061) 4/2/2009 16:27:52 PM - Zach Davis (228.162.230.124)> PASV
+(000061) 4/2/2009 16:27:52 PM - Zach Davis (228.162.230.124)> 227 Entering Passive Mode (192,168,1,74,199,253)
+(000061) 4/2/2009 16:27:52 PM - Zach Davis (228.162.230.124)> LIST
+(000061) 4/2/2009 16:27:52 PM - Zach Davis (228.162.230.124)> 150 Connection accepted
+(000058) 4/2/2009 16:27:54 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:27:54 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:27:54 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,254)
+(000058) 4/2/2009 16:27:55 PM - Doug Wright (170.73.65.24)> STOR file_16.mp3
+(000058) 4/2/2009 16:27:55 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000061) 4/2/2009 16:27:55 PM - Zach Davis (228.162.230.124)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:55 PM - Zach Davis (228.162.230.124)> 226 Transfer OK
+(000058) 4/2/2009 16:27:56 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000061) 4/2/2009 16:28:07 PM - Zach Davis (228.162.230.124)> CDUP
+(000061) 4/2/2009 16:28:07 PM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:28:07 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:28:07 PM - Zach Davis (228.162.230.124)> 257 "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:28:09 PM - Zach Davis (228.162.230.124)> CDUP
+(000061) 4/2/2009 16:28:09 PM - Zach Davis (228.162.230.124)> 200 CDUP successful. "/folder_1" is current directory.
+(000061) 4/2/2009 16:28:09 PM - Zach Davis (228.162.230.124)> PWD
+(000061) 4/2/2009 16:28:09 PM - Zach Davis (228.162.230.124)> 257 "/folder_1" is current directory.
+(000061) 4/2/2009 16:28:11 PM - Zach Davis (228.162.230.124)> disconnected.
+(000059) 4/2/2009 16:28:20 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:28:21 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:28:21 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,255)
+(000059) 4/2/2009 16:28:21 PM - Doug Wright (170.73.65.24)> STOR file_17.mp3
+(000059) 4/2/2009 16:28:21 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:28:22 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:11 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:12 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:12 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,200,0)
+(000058) 4/2/2009 16:29:12 PM - Doug Wright (170.73.65.24)> STOR file_18.jpg
+(000058) 4/2/2009 16:29:12 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:13 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:13 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:13 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:13 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,200,1)
+(000058) 4/2/2009 16:29:14 PM - Doug Wright (170.73.65.24)> STOR file_19.jpg
+(000058) 4/2/2009 16:29:14 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:14 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:15 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:15 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:15 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,157)
+(000058) 4/2/2009 16:29:16 PM - Doug Wright (170.73.65.24)> STOR file_20.jpg
+(000058) 4/2/2009 16:29:16 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:17 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:17 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:17 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:17 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,159)
+(000058) 4/2/2009 16:29:18 PM - Doug Wright (170.73.65.24)> STOR file_5.ini
+(000058) 4/2/2009 16:29:18 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:19 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:19 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:19 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:19 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,160)
+(000058) 4/2/2009 16:29:20 PM - Doug Wright (170.73.65.24)> STOR file_21.jpg
+(000058) 4/2/2009 16:29:20 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:20 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:21 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:21 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_10
+(000058) 4/2/2009 16:29:21 PM - Doug Wright (170.73.65.24)> 550 CWD failed. "/folder_2/folder_8/folder_10": directory not found.
+(000058) 4/2/2009 16:29:22 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8
+(000058) 4/2/2009 16:29:22 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8" is current directory.
+(000058) 4/2/2009 16:29:22 PM - Doug Wright (170.73.65.24)> MKD folder_10
+(000058) 4/2/2009 16:29:22 PM - Doug Wright (170.73.65.24)> 257 Directory created successfully
+(000058) 4/2/2009 16:29:23 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_10
+(000058) 4/2/2009 16:29:23 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8/folder_10" is current directory.
+(000058) 4/2/2009 16:29:23 PM - Doug Wright (170.73.65.24)> PWD
+(000058) 4/2/2009 16:29:23 PM - Doug Wright (170.73.65.24)> 257 "/folder_2/folder_8/folder_10" is current directory.
+(000058) 4/2/2009 16:29:24 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:24 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,161)
+(000058) 4/2/2009 16:29:24 PM - Doug Wright (170.73.65.24)> LIST
+(000058) 4/2/2009 16:29:24 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:26 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:29:26 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:29:26 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:29:26 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,162)
+(000058) 4/2/2009 16:29:27 PM - Doug Wright (170.73.65.24)> STOR file_22.mp3
+(000058) 4/2/2009 16:29:27 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:29:28 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:29:53 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:29:53 PM - Doug Wright (170.73.65.24)> CWD folder_2/folder_8/folder_10
+(000059) 4/2/2009 16:29:53 PM - Doug Wright (170.73.65.24)> 250 CWD successful. "/folder_2/folder_8/folder_10" is current directory.
+(000059) 4/2/2009 16:29:54 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:29:54 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,163)
+(000059) 4/2/2009 16:29:54 PM - Doug Wright (170.73.65.24)> STOR file_23.mp3
+(000059) 4/2/2009 16:29:54 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:29:55 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:30:54 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:30:54 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:30:54 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,164)
+(000058) 4/2/2009 16:30:55 PM - Doug Wright (170.73.65.24)> STOR file_24.mp3
+(000058) 4/2/2009 16:30:55 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:30:56 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:30:56 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:30:56 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:30:56 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,165)
+(000059) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> STOR file_25.mp3
+(000059) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> 426 Connection closed; transfer aborted.
+(000058) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,166)
+(000058) 4/2/2009 16:30:57 PM - Doug Wright (170.73.65.24)> LIST
+(000059) 4/2/2009 16:30:58 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:30:58 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:30:58 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:30:58 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000058) 4/2/2009 16:30:59 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:30:59 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,167)
+(000058) 4/2/2009 16:30:59 PM - Doug Wright (170.73.65.24)> APPE file_24.mp3
+(000058) 4/2/2009 16:30:59 PM - Doug Wright (170.73.65.24)> 550 Permission denied
+(000058) 4/2/2009 16:31:00 PM - Doug Wright (170.73.65.24)> PASV
+(000058) 4/2/2009 16:31:00 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,168)
+(000058) 4/2/2009 16:31:00 PM - Doug Wright (170.73.65.24)> LIST
+(000058) 4/2/2009 16:31:00 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000058) 4/2/2009 16:31:02 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:31:02 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:31:26 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:31:26 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:31:26 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,169)
+(000059) 4/2/2009 16:31:26 PM - Doug Wright (170.73.65.24)> STOR file_26.mp3
+(000059) 4/2/2009 16:31:27 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:31:27 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:32:05 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:32:05 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:32:05 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,170)
+(000059) 4/2/2009 16:32:05 PM - Doug Wright (170.73.65.24)> STOR file_27.mp3
+(000059) 4/2/2009 16:32:05 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:32:06 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000059) 4/2/2009 16:32:47 PM - Doug Wright (170.73.65.24)> 226 Transfer OK
+(000059) 4/2/2009 16:32:47 PM - Doug Wright (170.73.65.24)> PASV
+(000059) 4/2/2009 16:32:47 PM - Doug Wright (170.73.65.24)> 227 Entering Passive Mode (192,168,1,74,199,171)
+(000059) 4/2/2009 16:32:48 PM - Doug Wright (170.73.65.24)> STOR file_28.mp3
+(000059) 4/2/2009 16:32:48 PM - Doug Wright (170.73.65.24)> 150 Connection accepted
+(000059) 4/2/2009 16:32:48 PM - Doug Wright (170.73.65.24)> SSL connection for data connection established
+(000058) 4/2/2009 16:33:02 PM - Doug Wright (170.73.65.24)> 421 Connection timed out.
+(000058) 4/2/2009 16:33:02 PM - Doug Wright (170.73.65.24)> disconnected.

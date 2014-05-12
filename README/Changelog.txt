@@ -1,0 +1,34 @@
+FileZilla Log Analyzer 1.10 alpha Change Log file.
+
+1.10 alpha:
+ENHANCEMENTS:
+	-Can now filter by user, IP address, date, port or any combination thereof.
+	-Scrambling by IP address now appropriately scrambles only public IPs. Specifically, those that are not in the following CIDR ranges:
+		-127.0.0.1/8 (Loopback addresses)
+		-10.0.0.0/8 (Private network)
+		-172.16.0.0/12 (Private network)
+		-192.168.0.0/16 (Private network)
+		-169.254.0.0/16 (Link-local addresses)
+	-Scrambling by user can be done in numbered fashion(User_1,User_2,etc.)
+	-Flags can be specified much more flexibly, major improvements/changes made to flagHandler module:
+		-concise and verbose flags can be specified(-p and --parse respectively)
+		-flags that perform similar functions have been consolidated into one:
+			-f,u, and i flags are now parameters to the scramble flag(-s, or --scramble)
+	-Created help flag which briefly displays all flags and their parameters to command prompt
+	-Writing/overwriting is now specified without redundancies (i.e. Writing xxx..., Overwriting xxx...)
+BUG FIXES:
+	-Made parser recognize message which caused an error to be thrown about file not being an authentic FileZilla Server log
+	-Fixed bug that would cause an error when parsing by user instance if selecting portion where user only logs in or disconnects in log file
+	-User names scrambled in action portion of log is now generated properly(consistent with user found in user portion of log)
+	-Fixed rare bug in which scrambled IP wouldn't be created properly whenever an IP was scrambled to a private address
+
+1.03a alpha:
+	-Tools directory with fileMerge.py script included(accidentally omitted in 1.03 alpha release).
+
+1.03 alpha:
+BUG FIXES:
+	-Fixed FLPModule's parsing issue when attempting to parse log files without AM or PM specified after time.
+		-Ensured u, i, and f flags work with newly formatted log files.
+	-Fixed issue that would prevent file from being written even though terminal output said otherwise.
+	-Resolved issue which would write file in lieu of another without outputting correctly on command prompt.
+	-'u' flag now replaces user names found in the action(message) portion of log line

@@ -1,0 +1,10 @@
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> 230 Logged on
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> PBSZ 0
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> 200 PBSZ=0
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> PROT P
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> 200 Protection level set to P
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> CWD /
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/" is current directory.
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> PWD
+(000046) 4/1/2009 19:14:28 PM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000046) 4/1/2009 19:14:29 PM - Ben Sanders (8.182.9.128)> disconnected.

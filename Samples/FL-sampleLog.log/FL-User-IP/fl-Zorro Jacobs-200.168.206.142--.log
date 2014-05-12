@@ -1,0 +1,68 @@
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 230 Logged on
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> SYST
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 215 UNIX emulated by FileZilla
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> FEAT
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 211-Features:
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> MDTM
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> REST STREAM
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> SIZE
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> MLST type*;size*;modify*;
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> MLSD
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> AUTH SSL
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> AUTH TLS
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> UTF8
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> CLNT
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> MFMT
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 211 End
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> PBSZ 0
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 200 PBSZ=0
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> PROT P
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 200 Protection level set to P
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> PWD
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 257 "/" is current directory.
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> TYPE I
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 200 Type set to I
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> PASV
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 227 Entering Passive Mode (192,168,1,74,199,214)
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> LIST
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 150 Connection accepted
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 226 Transfer OK
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> MDTM file_1.txt
+(000044) 4/1/2009 16:53:21 PM - Zorro Jacobs (200.168.206.142)> 213 20090331093458
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> CWD folder_1
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> 250 CWD successful. "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> PWD
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> 257 "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> PASV
+(000044) 4/1/2009 16:53:27 PM - Zorro Jacobs (200.168.206.142)> 227 Entering Passive Mode (192,168,1,74,199,215)
+(000044) 4/1/2009 16:53:28 PM - Zorro Jacobs (200.168.206.142)> LIST
+(000044) 4/1/2009 16:53:28 PM - Zorro Jacobs (200.168.206.142)> 150 Connection accepted
+(000044) 4/1/2009 16:53:28 PM - Zorro Jacobs (200.168.206.142)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:28 PM - Zorro Jacobs (200.168.206.142)> 226 Transfer OK
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> CWD folder_3
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> PWD
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> 257 "/folder_1/folder_3" is current directory.
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> PASV
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> 227 Entering Passive Mode (192,168,1,74,199,216)
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> LIST
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> 150 Connection accepted
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:32 PM - Zorro Jacobs (200.168.206.142)> 226 Transfer OK
+(000044) 4/1/2009 16:53:35 PM - Zorro Jacobs (200.168.206.142)> CWD folder_1
+(000044) 4/1/2009 16:53:35 PM - Zorro Jacobs (200.168.206.142)> 250 CWD successful. "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:35 PM - Zorro Jacobs (200.168.206.142)> PWD
+(000044) 4/1/2009 16:53:35 PM - Zorro Jacobs (200.168.206.142)> 257 "/folder_1" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> CWD folder_2
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> PWD
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> 257 "/folder_1/folder_2" is current directory.
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> PASV
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> 227 Entering Passive Mode (192,168,1,74,199,217)
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> LIST
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> 150 Connection accepted
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> SSL connection for data connection established
+(000044) 4/1/2009 16:53:36 PM - Zorro Jacobs (200.168.206.142)> 226 Transfer OK
+(000044) 4/1/2009 16:55:37 PM - Zorro Jacobs (200.168.206.142)> 421 Connection timed out.
+(000044) 4/1/2009 16:55:37 PM - Zorro Jacobs (200.168.206.142)> disconnected.

@@ -1,0 +1,121 @@
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 230 Logged on
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> SYST
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 215 UNIX emulated by FileZilla
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> FEAT
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 211-Features:
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MDTM
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> REST STREAM
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> SIZE
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MLST type*;size*;modify*;
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MLSD
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> AUTH SSL
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> AUTH TLS
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> UTF8
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> CLNT
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MFMT
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 211 End
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> PBSZ 0
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 200 PBSZ=0
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> PROT P
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 200 Protection level set to P
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> TYPE I
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 200 Type set to I
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,207)
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> MDTM file_1.txt
+(000042) 4/1/2009 4:22:38 AM - Ben Sanders (8.182.9.128)> 213 20090331093458
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> CWD folder_1
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,208)
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:42 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> CWD folder_2
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_2" is current directory.
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,209)
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:44 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:45 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:45 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:46 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:22:46 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:46 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:46 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> CWD folder_3
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,210)
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:47 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:48 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:48 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> CWD folder_5
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,211)
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:49 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> CWD folder_6
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_3/folder_5/folder_6" is current directory.
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3/folder_5/folder_6" is current directory.
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,212)
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:22:57 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:22:58 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:22:58 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:22:59 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:22:59 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3/folder_5" is current directory.
+(000042) 4/1/2009 4:23:04 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:23:04 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:23:04 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:04 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_3" is current directory.
+(000042) 4/1/2009 4:23:06 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:23:06 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1" is current directory.
+(000042) 4/1/2009 4:23:06 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:06 AM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000042) 4/1/2009 4:23:15 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:23:15 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:15 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:15 AM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:17 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:23:17 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:17 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:17 AM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> CWD folder_7
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_7" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> 257 "/folder_7" is current directory.
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> PASV
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,213)
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> LIST
+(000042) 4/1/2009 4:23:25 AM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000042) 4/1/2009 4:23:26 AM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000042) 4/1/2009 4:23:26 AM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000042) 4/1/2009 4:23:28 AM - Ben Sanders (8.182.9.128)> CDUP
+(000042) 4/1/2009 4:23:28 AM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/" is current directory.
+(000042) 4/1/2009 4:23:28 AM - Ben Sanders (8.182.9.128)> PWD
+(000042) 4/1/2009 4:23:28 AM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000042) 4/1/2009 4:23:59 AM - Ben Sanders (8.182.9.128)> disconnected.

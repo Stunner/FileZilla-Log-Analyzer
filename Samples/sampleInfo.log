@@ -1,0 +1,35 @@
+Sample Info
+----------------------------------------------------------------------------------------------------------------------------------------
+For best readability, use a viewer that wraps around text, and expand viewing window to length of the above line.
+
+##############
+Creation Info:
+##############
+	'sampleLog.log' created by using FLA version 1.03 alpha's u, i, and f flags on a real log file(equivalent to FLA version 1.10 alpha's scramble flag with the f, u and i parameters). 'sampleListedSummary.log' and 'sampleLineInterpretation.log' were created by running FLA without flags on 'sampleLog.log'.
+
+####################################
+'sampleLineInterpretation.log' Info:
+####################################
+	This file contains a line by line, easily readable interpretation of each significant action, while filtering out the verbose protocol actions. A line number follows each interpreted line.
+
+###############################
+'sampleListedSummary.log' Info:
+###############################
+	Times are provided in tuples, or instances, which contain the date, time, and line number, like so: ('4/1/2009', '1:34:49', 13)
+#                                                                                                              date        time   line #
+
+--Example:--
+                           #indicates the instance at which the file began and ended, '---' will be displayed in the case 
+                           #of no valid date or time for beginning or end instances
+STATISTICS SUMMARY:    ('4/1/2009', '1:34:48', 1) -> ('4/2/2009', '16:33:02', 1049)
+BENJAMIN BUTTON:    ('4/1/2009', '1:34:49', 13) -> ('4/2/2009', '16:28:11', 934)
+                       #first login instance            last logout instance
+    DOWNLOADS:
+        /folder_1:
+            file_2.xls    ('4/1/2009', '20:37:53', 523)
+    fail    file_7.mp3    ('4/2/2009', '16:25:07', 716)
+                              #instance at which action was completed (in this case, when the file finished being downloaded)
+
+'fail' - indicates when an action is not successfully completed(in this case user benjamin button began downloading file_7.mp3, but did not successfully complete the download for some reason)
+
+Note: Any listing without a 'fail' next to it is successful.

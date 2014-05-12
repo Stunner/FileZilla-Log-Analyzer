@@ -1,0 +1,50 @@
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 230 Logged on
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> PBSZ 0
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 200 PBSZ=0
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> PROT P
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 200 Protection level set to P
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> CWD /
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 257 "/" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> CWD folder_1
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> TYPE I
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 200 Type set to I
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> PASV
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,251)
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> LIST
+(000061) 4/2/2009 16:27:45 PM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000061) 4/2/2009 16:27:46 PM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:46 PM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> CWD folder_2
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> PASV
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,252)
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> LIST
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:48 PM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000061) 4/2/2009 16:27:51 PM - Ben Sanders (8.182.9.128)> CWD folder_8
+(000061) 4/2/2009 16:27:51 PM - Ben Sanders (8.182.9.128)> 250 CWD successful. "/folder_1/folder_2/folder_8" is current directory.
+(000061) 4/2/2009 16:27:51 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:27:51 PM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_2/folder_8" is current directory.
+(000061) 4/2/2009 16:27:52 PM - Ben Sanders (8.182.9.128)> PASV
+(000061) 4/2/2009 16:27:52 PM - Ben Sanders (8.182.9.128)> 227 Entering Passive Mode (192,168,1,74,199,253)
+(000061) 4/2/2009 16:27:52 PM - Ben Sanders (8.182.9.128)> LIST
+(000061) 4/2/2009 16:27:52 PM - Ben Sanders (8.182.9.128)> 150 Connection accepted
+(000061) 4/2/2009 16:27:55 PM - Ben Sanders (8.182.9.128)> SSL connection for data connection established
+(000061) 4/2/2009 16:27:55 PM - Ben Sanders (8.182.9.128)> 226 Transfer OK
+(000061) 4/2/2009 16:28:07 PM - Ben Sanders (8.182.9.128)> CDUP
+(000061) 4/2/2009 16:28:07 PM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:28:07 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:28:07 PM - Ben Sanders (8.182.9.128)> 257 "/folder_1/folder_2" is current directory.
+(000061) 4/2/2009 16:28:09 PM - Ben Sanders (8.182.9.128)> CDUP
+(000061) 4/2/2009 16:28:09 PM - Ben Sanders (8.182.9.128)> 200 CDUP successful. "/folder_1" is current directory.
+(000061) 4/2/2009 16:28:09 PM - Ben Sanders (8.182.9.128)> PWD
+(000061) 4/2/2009 16:28:09 PM - Ben Sanders (8.182.9.128)> 257 "/folder_1" is current directory.
+(000061) 4/2/2009 16:28:11 PM - Ben Sanders (8.182.9.128)> disconnected.
