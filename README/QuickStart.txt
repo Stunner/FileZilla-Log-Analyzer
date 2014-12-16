@@ -274,8 +274,3 @@ Analyzing sampleLog.log...
 ('Ben Sanders', 'login', 879)
 ('Ben Sanders', 'disconnect', 934)
 $
-
-########
-CONTACT:
-########
-For feedback, comments, questions, bug reporting, or just to give me a friendly hello, contact me at technetix@gmail.com.
