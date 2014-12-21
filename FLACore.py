@@ -1004,11 +1004,11 @@ class changeList(object):
     def __init__(self,m,u,p):
         self.cList.append((m,u,str(p)))
     def addMsg(self,m):
-        self.cList.append(m)
+        self.cList.append((m,'',''))
     def addUser(self,u):
-        self.cList.append(u)
+        self.cList.append(('',u,''))
     def addPort(self,p):
-        self.cList.append(str(p))
+        self.cList.append(('','',str(p)))
     def checkAndUpdate(self,m,u,p):
         if m!= G.prevMsg and u != G.prevUser and p != G.prevPort:
             self.cList.append((m,u,str(p)))
@@ -1023,9 +1023,14 @@ class changeList(object):
             self.addPort(str(p))
         else:
             self.cList.append('')
+
     def prnt(self):
         print self.cList
+
     def getNext(self,i):
+        '''
+        Returns (message, user, port)
+        '''
         if self.cList[i] == '':
             return ('','','')
         else:
