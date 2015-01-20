@@ -2006,6 +2006,10 @@ def processAndExecute(argv,nextArg):
                 print "The file's formatting is funky at line " + str(G.line) + \
                     "... Must use an original FileZilla Server log file! Terminating..."
                 exit()
+            except Exception, e:
+                print "Exception " + e + " occurred at line " + str(G.line) + ". Please report this issue at " \
+                "https://github.com/Stunner/FileZilla-Log-Analyzer/issues and provide a scrambled version of the log file you are using."
+                raise
             if lineCtr == 0: #if first run
                 G.events = evntLst(m,p,d,t,u,i,a,lineCtr)
                 G.prevMsg = m
