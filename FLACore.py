@@ -2007,7 +2007,7 @@ def processAndExecute(argv,nextArg):
                     "... Must use an original FileZilla Server log file! Terminating..."
                 exit()
             except Exception, e:
-                print "Exception " + e + " occurred at line " + str(G.line) + ". Please report this issue at " \
+                print "Exception " + str(e) + " occurred at line " + str(G.line) + ". Please report this issue at " \
                 "https://github.com/Stunner/FileZilla-Log-Analyzer/issues and provide a scrambled version of the log file you are using."
                 raise
             if lineCtr == 0: #if first run
