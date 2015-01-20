@@ -1125,7 +1125,9 @@ def analyze((m,p,d,t,u,i,a),lineCtr):
     msg = ''
     tempM = ''
     parsedAction = a.split()
-    if a == '230 Logged on': #######LOGIN#######
+    if a == '':
+        return (msg, lineCtr)
+    elif a == '230 Logged on': #######LOGIN#######
         if not G.events.userLoggedIn(m,u):
             msg = "User '" + u + "' successfully logged in."
             G.events.addStatistic(m,u,p,[u,'login',i,p,(d,t,lineCtr+1)])

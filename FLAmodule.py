@@ -65,6 +65,8 @@ def _parseUsr(i,fline):
 
 #recursively join strings until newline is reached
 def _parseAction(i,fline):
+    if fline[i] == "\n":
+        return ''
     if fline[i+1] == "\n":
         return fline[i]
     else:
